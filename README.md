@@ -1,4 +1,4 @@
-# Comparing-Text-Classification-algorithms
+# Comparing Text Classification algorithms
 
 This repository is made for quick (basic) testing of different classifiers.
 
