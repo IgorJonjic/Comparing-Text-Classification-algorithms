@@ -15,8 +15,8 @@ Classifiers:
  
  # Preprocessing
  
- Preprocessing done in data_loader.py 
- Using pandas library data is loaded and prepared for processing. Minimal processing was made to assure that classes are balanced.
+ Preprocessing done in data_loader.py  \n
+ Using pandas library data is loaded and prepared for processing. Minimal processing was made to assure that classes are balanced.\n
  Using sklearn library data is transformed into vectors that will be used to train and test classifications models.
  
  
