@@ -12,13 +12,23 @@ Classifiers:
  
  Classification based E-commerce text dataset for 4 categories - "Electronics", "Household", "Books" and "Clothing & Accessories"
  
- 
+ # How to use:
+    1. Create conda environment from environment.yml file or make python venv from requirements.txt
+    2. load dataset with data_loader.py
+    3. run linear_svc.py 
+    4. run logistic_regresion.py
+    5. run naive_bayes.py
+   
  # Preprocessing
  
- Preprocessing done in data_loader.py  
+ Preprocessing is done in data_loader.py  
  Using pandas library data is loaded and prepared for processing. Minimal processing was made to assure that classes are balanced.
  Using sklearn library data is transformed into vectors that will be used to train and test classifications models.
- 
+ It is possible to load any other labeled dataset with minimal changes in first 5 lines on dataFrame_to_vectors() function.
+
+  # Visualization
+  
+  Function plot_conusion_matrix() in visualization.py is used to plot confusiuon matrix for all algorithms that are tested.
  
  # Naive Bayes
  
@@ -49,6 +59,8 @@ Classifiers:
  
  ![svc](https://user-images.githubusercontent.com/84984358/224565919-917fd1f0-0c06-42ce-a190-3f30acc8a8bf.png)
 
+
+This repo could be extended with other algorithms for testing or could be used to test different parameters of classifiers or both.
 
 
  
