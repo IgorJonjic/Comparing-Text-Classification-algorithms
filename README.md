@@ -4,7 +4,7 @@ This repository is made for quick (basic) testing of different classifiers.
 
 Classifiers:
   1. Naive Bayes
-  2. Logistic Regresion
+  2. Logistic Regression
   3. Suport Vector Machine
   
  Dataset used is ecommerceDataset from Kaggle: 
@@ -16,7 +16,7 @@ Classifiers:
     1. Create conda environment from environment.yml file or make python venv from requirements.txt
     2. load dataset with data_loader.py
     3. run linear_svc.py 
-    4. run logistic_regresion.py
+    4. run logistic_regression.py
     5. run naive_bayes.py
    
  # Preprocessing
@@ -40,7 +40,7 @@ Classifiers:
  ![naive_bayes](https://user-images.githubusercontent.com/84984358/224565231-1a643f5d-a886-4321-ad00-1692633105c7.png)
  
 
- # Logistic Regresion
+ # Logistic Regression
  
  Algorithm was measured for accuracy and scored: 97%
  
