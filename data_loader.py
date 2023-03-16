@@ -11,7 +11,7 @@ import itertools
 
 data = pd.read_csv('ecommerceDataset.csv', names=["Label", "Text"])
 
-def dataFrame_to_vectors(data: pd.DataFrame):
+def dataFrame_to_vectors(data: pd.DataFrame) -> np.array:
     """ Function takes pandas DataFrame and returns train and test vectors for classifiers.
          """
     house_data = data[data['Label'] == 'Household']
